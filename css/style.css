@@ -42,15 +42,15 @@ nav a.current{
     font-weight: bold;
 }
 
-/* @keyframes example {
+@keyframes example {
     from {background-color: red;}
     to {background-color: yellow;}
-  } */
+  }
   
   div {
     background-color: beige;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 2s;
   }
 
 .container{
@@ -116,7 +116,7 @@ a{
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 200px) {
     body{
         background-color: pink;
     }
@@ -182,7 +182,7 @@ a{
     
     .travelheading:hover, .headings:hover {
         background-color: #e74c3c;
-        cursor:pointer; /* Optional: Change the cursor to a hand pointer */
+        cursor:pointer; 
     }
 
     .hover-element {
